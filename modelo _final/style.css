@@ -1,0 +1,82 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+}
+#placar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#jogador,
+#computador {
+  position: relative;
+  flex-grow: 1;
+  border-radius: 5px;
+  width: 200px;
+  padding: 20px;
+  color: #fff;
+}
+#jogador {
+  background-color: #e58fff;
+}
+#computador {
+  background-color: #11d6f0;
+}
+#versus {
+  font-size: 40px;
+  width: 70px;
+  text-align: center;
+}
+#jogadorNome,
+#computadorNome {
+  margin: 0;
+  padding: 0;
+}
+#jogadorNome {
+  text-align: left;
+}
+#computadorNome {
+  text-align: right;
+}
+#jogadorPontos {
+  right: 20px;
+}
+#computadorPontos,
+#jogadorPontos {
+  position: absolute;
+  top: 8px;
+  font-size: 32px;
+}
+ul#jogadorEscolha,
+ul#computadorEscolha {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+ul#jogadorEscolha li,
+ul#computadorEscolha li {
+  display: inline;
+}
+ul#jogadorEscolha li a,
+ul#computadorEscolha li a {
+  opacity: 0.2;
+}
+ul#jogadorEscolha li a:hover {
+  opacity: 1;
+}
+
+ul#jogadorEscolha li a img,
+ul#computadorEscolha li a img {
+  max-width: 50px;
+}
+#mensagens {
+  background-color: rgb(233, 137, 27);
+  margin-top: 45px;
+  border-radius: 5px;
+  padding: 10px;
+}
+#titulo {
+  color: rgb(233, 137, 27);
+  text-align: center;
+}

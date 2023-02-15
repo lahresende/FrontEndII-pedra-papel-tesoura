@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedra 💎 , Papel 🧻 e Tesoura ✂</title>
+    <link rel="stylesheet" href="./modelo _final/style.css" />
+  </head>
+  <body>
+    <div id="principal">
+      <h1 id="titulo">Pedra 💎 , Papel 🧻 e Tesoura ✂</h1>
+      <div id="placar">
+        <div id="jogador">
+          <h2 id="jogadorNome">Nolan</h2>
+          <span id="jogadorPontos">0</span>
+          <ul id="jogadorEscolha">
+            <li>
+              <a id="pedra" onclick="jogar('pedra')"
+                ><img src="./modelo _final/imagens/pedra.png" alt="Pedra"
+              /></a>
+            </li>
+            <li>
+              <a id="papel" onclick="jogar('papel')"
+                ><img src="./modelo _final/imagens/papel.png" alt="Papel"
+              /></a>
+            </li>
+            <li>
+              <a id="tesoura" onclick="jogar('tesoura')"
+                ><img src="./modelo _final/imagens/tesoura.png" alt="Tesoura"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div id="versus">vs</div>
+        <div id="computador">
+          <h2 id="computadorNome">Computador</h2>
+          <span id="computadorPontos">0</span>
+          <ul id="computadorEscolha">
+            <li>
+              <a id="pedraComputador"
+                ><img src="./modelo _final/imagens/pedra.png" alt="Pedra"
+              /></a>
+            </li>
+            <li>
+              <a id="papelComputador"
+                ><img src="./modelo _final/imagens/papel.png" alt="Papel"
+              /></a>
+            </li>
+            <li>
+              <a id="tesouraComputador"
+                ><img src="./modelo _final/imagens/tesoura.png" alt="Tesoura"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+     
+      <div id="mensagens">Mensagens</div>
+    </div>
+    <script src="./modelo _final/script.js"></script>
+  </body>
+</html>
